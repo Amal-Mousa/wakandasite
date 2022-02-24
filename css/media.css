@@ -1,0 +1,147 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    /* NAV START */
+    nav{
+        box-shadow: 1px 1px 2px 2px #161616;
+    }
+    /* NAV END */
+    /* SECTION1 START */
+    .header-title{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    .short-description{
+        letter-spacing: 1px;
+        font-size: 1rem;
+        padding: 0 0.5rem 1rem 0.5rem;
+    }
+    /* SECTION1 END */
+
+    /* SECTION2 START */
+    .all-img{
+        display: none;
+    }
+    .about-title{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .about-line{
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 12rem;
+    }
+    .about-company{
+        padding:0 1.5rem ;
+    }
+    /* SECTION2 END */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* NAV START */
+      nav{
+        box-shadow: 1px 1px 2px 2px #161616;
+    }
+    /* NAV END */
+    /* SECTION1 START */
+    .header-title{
+        font-size: 3.4rem;
+        letter-spacing: .5px;
+    }
+    .short-description{
+        letter-spacing: 1px;
+        padding: 0 1.5rem;
+        font-size: 1rem;
+    }
+    /* SECTION1 END */
+
+    /* SECTION2 START */
+    .all-img{
+        display: none;
+    }
+    .about-title{
+        text-align: center;
+    }
+    .about-line{
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 12rem;
+    }
+    /* SECTION2 END */
+  
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+     /* SECTION1 START */
+     .header-title{
+        font-size: 4rem;
+        letter-spacing: .9px;
+    }
+    .short-description{
+        letter-spacing: 1px;
+        font-size: 1.3rem;
+        padding: 0 1.5rem;
+    }
+    /* SECTION1 END */
+
+    /* SECTION2 START */
+    .all-img{
+        display: none;
+    }
+    .about-title{
+        text-align: center;
+    }
+    .about-line{
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 12rem;
+    }
+    /* SECTION2 END */
+
+   
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* SECTION1 START */
+     .header-title{
+        font-size: 4.5rem;
+        letter-spacing: .9px;
+    }
+    .short-description{
+        letter-spacing: 1px;
+        font-size: 1.3rem;
+        padding: 0 1.5rem;
+    }
+    /* SECTION1 END */
+    
+    /* SECTION2 START */
+    .all-img{
+        margin-top: 3rem;
+    }
+    .about-company{
+        padding-right: 2rem;
+    }
+    /* SECTION2 END */
+ 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+    /* SECTION2 START */
+    .about-company{
+        padding-right: 2rem;
+    }
+    /* SECTION2 END */
+ 
+}
